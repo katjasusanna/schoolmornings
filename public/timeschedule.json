@@ -1,0 +1,87 @@
+{
+	"timeschedule": 
+	{
+	"0":
+	{
+	"id": "maanantai",
+	"schoolStarts": 9
+	},
+
+	"1":
+	{
+	"id": "tiistai",
+	"schoolStarts": 10
+	},
+
+	"2":	
+	{
+	"id": "keskiviikko",
+	"schoolStarts": 9
+	},
+
+	"3":
+	{
+	"id": "torstai",
+	"schoolStarts": 9
+	},
+
+	"4":
+	{
+	"id": "perjantai",
+	"schoolStarts": 9
+	}
+},
+
+	"tasks":
+{
+	"breakfast":
+	{
+    "text": "Syö aamupala",
+    "logoName": "puuro"
+	},
+
+	"clothes":
+	{
+    "text": "Pue sisävaatteet",
+    "logoName": "vaatteet"
+	},
+
+	"teeth":
+	{
+    "text": "Pese hampaat",
+    "logoName": "hammasharja"
+	},
+
+	"pack":
+	{
+    "text": "Pakkaa reppu",
+    "logoName": "reppu"
+	},
+	
+	"outdoorclothes":
+	{
+    "text": "Pue ulkovaatteet",
+    "logoName": "ulkovaatteet"
+	},
+
+	"lamps":
+	{
+    "text": "Sammuta valot",
+    "logoName": "lamppu"
+	},
+    
+    "door":
+	{
+    "text": "Laita ovi lukkoon kun lähdet",
+    "logoName": "ovi"
+	}
+}
+
+}
+
+
+
+
+
+
+  

@@ -1,38 +1,31 @@
+
+@import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
+
 .App {
+  height: 100vh;
+  margin:  auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+  background-color:rgb(108, 243, 230);
+  
+}
+
+.header {
+  font-size: 1.7em;
+  margin: 3% 10%;
+}
+
+button {
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 12px 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.buttonBack {
+  font-size: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
