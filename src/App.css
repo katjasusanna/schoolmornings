@@ -2,14 +2,11 @@
 @import url("https://fonts.googleapis.com/css?family=Bangers&display=swap");
 
 .App {
-  height: 100vh;
   margin:  auto;
   display: flex;
   flex-direction: column;
   font-family: 'Bangers', cursive;
   text-align: center;
-  background-color:rgb(108, 243, 230);
-  
 }
 
 .header {
