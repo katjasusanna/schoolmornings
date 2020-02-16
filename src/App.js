@@ -21,7 +21,6 @@ function App(props) {
     let n = d.getDay();
     let today = days[n-1];
 
-
     const [dayStarts, setDayStarts] = useState([])
         useEffect(() => {
           fetch("https://schoolmornings.firebaseio.com/timeschedule.json")

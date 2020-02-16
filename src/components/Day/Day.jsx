@@ -35,7 +35,8 @@ const [time, setTime] = useState(getNow());
         };
       }
 
-    if ((props.n-1) < 5) {
+
+    if ((props.n-1) < 5 && (props.n-1) >= 0)  {
         return (
             <div className="dayPage">
                 <div>
@@ -70,7 +71,7 @@ const [time, setTime] = useState(getNow());
     } else
         return (
             <div className="header">
-                <p>Huomenta {localStorageName.name}, <br /> tänään on {props.today} ja on viikonloppu!</p>
+                <p>Huomenta {localStorageName.name}, <br /> nyt on viikonloppu ja on vapaapäivä!</p>
                 <div><img src={aurinko} alt=" " className="weekendImg"/></div>
                 <div className="link">
                     <p className="buttonBack">
@@ -89,3 +90,4 @@ const [time, setTime] = useState(getNow());
 
 export default Day;
 
+//<p>Huomenta {localStorageName.name}, <br /> tänään on {props.today} ja on viikonloppu!</p>
